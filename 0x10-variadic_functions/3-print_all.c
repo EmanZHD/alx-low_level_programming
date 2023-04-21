@@ -1,9 +1,5 @@
 #include "variadic_functions.h"
 
-
-
-
-
 /**
  * print_string - print
  * @n: string

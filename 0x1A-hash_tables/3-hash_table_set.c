@@ -1,11 +1,11 @@
 #include "hash_tables.h"
 
-/*
- * hash_table_set - functyion that adds an element to the hash table
+/**
+ * hash_table_set - adds an element to the hash table.
  * @ht: the hash table to add or update the key/value to
  * @key: the key
  * @value: the value associated with the key.
- * Return: return 1 if it succeeded, 0 otherwise
+ * Return: 1 if it succeeded, 0 otherwise
  */
 
 int	hash_table_set(hash_table_t *ht, const char *key, const char *value)
@@ -41,4 +41,3 @@ int	hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	ht->array[i] = new_node;
 	return (1);
 }
-
